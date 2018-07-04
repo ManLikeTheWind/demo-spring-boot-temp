@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>笔记01-spring-boot-start</title>
+</head>
+<link>
+<b>链接https://blog.csdn.net/winter_chen001/article/details/80537847</b>
+<p>一、目录结构</p>
+-src
+    -main
+       -java
+         -package
+             #主函数，启动类，运行它如果运行了 Tomcat、Jetty、Undertow 等容器
+             -SpringbootApplication
+        -resouces
+            #文件夹-存放静态资源 js/css/images 等
+            -static
+            #文件夹-存放 html 模板文件
+            -templates
+            #文件-主要配置文件，SpringBoot启动时候会自动加载application.yml/application.properties
+            -application.yml
+    #测试文件存放目录
+    -test
+#pom.xml 文件是maven构建的寄出，里面包含了我们所依赖JAR和Plugin的信息
+-pom.xml
+
+<p>二、拓展知识--Banner 介绍-自定义Banner</p>
+扩展网址：http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20
+根网址：http://patorjk.com
+
+SpringBoot启动的时候我们可以看到如下内容，这一块其实是可以自定义的哦，而且在 2.X 版本中，
+它支持的格式从文本扩展到banner.txt、banner.jpg、banner.gif、banner.jpeg等等，只需要在resouces目录下添加指定命名的文件即可
+
+.   ____          _            __ _ _
+/\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+\\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+'  |____| .__|_| |_|_| |_\__, | / / / /
+=========|_|==============|___/=/_/_/_/
+:: Spring Boot ::        (v2.0.1.RELEASE)
+
+
+
+
+</body>
+</html>
