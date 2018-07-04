@@ -1,0 +1,8 @@
+my1:
+  age: 25
+  name: dongxiang
+spring:
+  profiles:
+    active: dev
+
+

@@ -1,0 +1,5 @@
+#my2:
+#  age: 16  这种类型，映射不成功
+my2.age: 13
+my2.name: dongxiang
+my2.email: ddjdjjjksdafjksdf

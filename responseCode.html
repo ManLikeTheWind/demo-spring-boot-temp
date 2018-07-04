@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+http 状态码
+200 OK：一切正常，对GET和POST请求的应答文档跟在后面
+
+400 Bad Request: 请求出现语法错误。
+
+403 Forbidden：资源不可用。
+
+404 Not Found：无法找到指定位置的资源
+
+405 Method Not Allowed：请求方法（GET、POST、HEAD、Delete、PUT、TRACE等）对指定的资源不适用。
+        HTTP Status 405 - Request method ‘POST’ not supported  type Status report  message Request method ‘POST’ not supported description The specified HTTP method is not allowed for the requested resource.
+        Apache Tomcat/7.0.75
+
+500 Internal Server Error：服务器遇到了意料不到的情况，不能完成客户的请求
+
+501 Not Implemented：服务器不支持实现请求所需要的功能。例如，客户发出了一个服务器不支持的PUT请求
+
+503 Service Unavailable：服务器由于维护或者负载过重未能应答。例如，Servlet可能在数据库连接池已满的情况下返回503。服务器返回503时可以提供一个Retry-After头
+
+505 HTTP Version Not Supported：服务器不支持请求中所指明的HTTP版本
+</body>
+</html>

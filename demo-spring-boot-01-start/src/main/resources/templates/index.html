@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!-- 可以看到 thymeleaf 是通过在标签里添加额外属性来绑定动态数据的 -->
+    <title th:text="${title}">Title</title>
+    <!-- 在/resources/static/js目录下创建一个hello.js 用如下语法依赖即可
+        <script type="text/javascript" th:src="@{/js/hello.js}"></script>-->
+</head>
+<body>
+<h1 th:text="${desc}">描述</h1>
+<h2>=====作者信息=====</h2>
+<!--authorDetail  为entityBean 的 Name 第一个首字母要小写-->
+<p th:text="${authorDetail?.name}">authorDetail.name</p>
+<p th:text="${authorDetail?.age}">authorDetail.age</p>
+<p th:text="${authorDetail?.email}">authorDetail.email</p>
+</body>
+</html>

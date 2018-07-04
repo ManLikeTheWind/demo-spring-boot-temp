@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.dx.demo</groupId>
+    <artifactId>demo-spring-exprience-01</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>demo-spring-exprience-01</name>
+    <description>Demo project for Spring Boot</description>
+
+ <modules>
+     <module> demo-spring-boot-01-start</module>
+     <module>demo-spring-boot-02-jdbctemplate</module>
+     <module>demo-spring-boot-04-mybatis-e1</module>
+     <module>demo-spring-boot-05-lettuce-redis</module>
+     <module>demo-spring-boot-06-cache-redis</module>
+     <module>demo-spring-boot-07-swagger</module>
+
+ </modules>
+
+
+</project>
