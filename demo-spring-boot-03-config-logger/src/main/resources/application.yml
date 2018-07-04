@@ -1,0 +1,11 @@
+#自定义属性配置
+my1.age: 28
+my1.name: dxiang
+my1.email: dongxiang_android_sdk2@aliyun.com
+
+server:
+  port: 8080
+
+#dev 开发配置，prod 生产配置，test 测试配置
+spring.profiles.active: dev
+

@@ -1,0 +1,18 @@
+server:
+  servlet:
+#  http://localhost:8080/dev/..... 以dev为前缀后面在跟其他
+    context-path: /dev
+spring:
+  swagger:
+    base-package: com.dongxaing.demospringboot03configlogger
+    enabled: true
+    contact:
+      name: dongxiang
+      email: dongxiang_android_sdk2@aliyun.com
+      url: https://blog.csdn.net/a2241076850
+    description: 首页描述描述
+    title: application-config  Logger-Config
+    version: 1.0
+    host: localhost
+    terms-of-service-url: https://blog.csdn.net/a2241076850
+
