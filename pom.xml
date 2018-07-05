@@ -14,6 +14,7 @@
  <modules>
      <module> demo-spring-boot-01-start</module>
      <module>demo-spring-boot-02-jdbctemplate</module>
+     <module>demo-spring-boot-03-config-logger</module>
      <module>demo-spring-boot-04-mybatis-e1</module>
      <module>demo-spring-boot-05-lettuce-redis</module>
      <module>demo-spring-boot-06-cache-redis</module>

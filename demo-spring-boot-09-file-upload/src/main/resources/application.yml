@@ -1,0 +1,21 @@
+spring:
+  thymeleaf:
+  #禁用 thymeleaf 缓存
+    cache: false
+  servlet:
+    multipart:
+    #是否支持批量上传  默认true
+      enabled: true
+      #上传文件的临时目录  一般情况下不用特意修改
+#      location:
+      #上传文件的最大值 1M 默认值是1M
+      max-file-size: 1MB
+      #上传请求值最大值 10M 默认是10M
+      max-request-size: 10MB
+      #文件大小阈值，当大于这个阈值时，将写入到磁盘；否则存在内容中（默认是0，一般情况不用特意修改）
+      file-size-threshold: 0
+      #判断是否要延迟解析文件（相当于懒加载，一般情况不用修改）
+      resolve-lazily: false
+# 如默认只允许1M以下的文件，当超出该范围则会抛出下述错误
+# org.apache.tomcat.util.http.fileupload.FileUploadBase$SizeLimitExceededException:
+# the request was rejected because its size (20738021) exceeds the configured maximum (10485760)
