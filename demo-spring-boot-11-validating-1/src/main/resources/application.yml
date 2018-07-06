@@ -1,0 +1,18 @@
+spring:
+  swagger:
+  # 扫描的包路径,默认扫描所有
+    base-package: com.dongxiang.demospringboot11validating1
+    # 默认为 true
+    enabled: true
+    contact:
+      email: dongxiang_android_sdk2@aliyun.com
+      name: dongxiang
+      url: https://blog.csdn.net/a2241076850/
+    description: 首页-描述-描述-描述
+    title: title-title
+    version: 首页-version-version
+
+
+
+
+
