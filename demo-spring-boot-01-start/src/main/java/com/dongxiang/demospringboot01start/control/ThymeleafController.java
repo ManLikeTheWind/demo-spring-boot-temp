@@ -25,7 +25,6 @@ import javax.servlet.http.HttpServletResponse;
 @RequestMapping(value = {"/thymeleaf"} ,method = RequestMethod.GET)
 public class ThymeleafController {
 
-
     @RequestMapping(value = {"index.html"},method = RequestMethod.GET)
     public ModelAndView index0(){
         ModelAndView view=new ModelAndView();
